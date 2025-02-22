@@ -65,12 +65,28 @@
   color: black;
   cursor: pointer;
   position: absolute;
-  top: 110px; /* Position below nav bar */
-  left: 390px; /* Position to the right of sidebar */
+  top: 68px; /* Position below nav bar */
+  left: 230px; /* Position to the right of sidebar */
   transition: transform 0.2s;
 }
 
 .add-button:hover {
   transform: scale(1.1);
   background-color: #808080;
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(5px);/* Transparent effect */
 }

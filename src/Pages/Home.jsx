@@ -23,7 +23,7 @@ function Home(){
       </nav>
 
       <div className="content">
-        <h1 className="title"><strong>"Collab, Record, Organize, and Map your ideas."</strong></h1>
+        <h1 className="title"><strong><br></br>"Collab, Record,<br></br> Organize, and <br></br>Map your ideas."</strong></h1>
         <div className="button-group">
           <button className="action-button" onClick={handleCreateTeamClick}>Create Team</button>
           <button className="action-button">Organiser</button>
