@@ -1,0 +1,76 @@
+/* App.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d3d3d3;
+  padding: 10px 20px;
+}
+
+.logout-button {
+  background-color: #808080;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.logout-button:hover {
+  background-color: #666666;
+}
+
+.sidebar {
+  background-color: #a9a9a9;
+  padding: 20px;
+  width: 300px;
+}
+
+.project-info, .team-members, .task-summary {
+  margin-bottom: 20px;
+  background-color: #808080;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.project-info h2, .team-members h3, .task-summary h3 {
+  margin-top: 0;
+}
+
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-button {
+  width: 100px;
+  height: 100px;
+  background-color: #696969;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 50px;
+  color: black;
+  cursor: pointer;
+  position: absolute;
+  top: 110px; /* Position below nav bar */
+  left: 390px; /* Position to the right of sidebar */
+  transition: transform 0.2s;
+}
+
+.add-button:hover {
+  transform: scale(1.1);
+  background-color: #808080;
+}
