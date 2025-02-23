@@ -137,3 +137,9 @@
   .action-button:hover {
     background-color: #7b7c7b;
   }
+
+  .large-image {
+    width: 600px;
+    height: 600px;
+    transform: translate(120%,-80%);
+  }

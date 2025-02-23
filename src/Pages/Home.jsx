@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../Styles/home.css';
 import  './Front';
-
+import IntroImage from '../assets/images/intro.png'
 function Home(){
   const navigate = useNavigate();
 
@@ -28,6 +28,7 @@ function Home(){
           <button className="action-button" onClick={handleCreateTeamClick}>Create Team</button>
           <button className="action-button">Organiser</button>
         </div>
+        <img src={IntroImage} alt="Collaborative Platform" className="large-image" />
       </div>
     </div>
   );
